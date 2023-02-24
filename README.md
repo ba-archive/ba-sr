@@ -3,6 +3,7 @@
 ## 支持的模型
 
 -  [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
+- [Real-CUGAN](https://github.com/nihui/realcugan-ncnn-vulkan)
 
 ## 依赖
 
