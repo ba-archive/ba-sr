@@ -15,7 +15,7 @@
 
 ---
 
-**模型位置**：`vendors/real_esrgan/`
+**模型位置**：`vendors/realesrgan/`
 
 **可执行文件**： 
 
@@ -27,6 +27,24 @@
 
 ```bash
 ./realesrgan-ncnn-vulkan -i "<input.png>" -o "<output-4x>.png"
+```
+
+### **Real-CUGAN**
+
+---
+
+**模型位置**：`vendors/realcugan/`
+
+**可执行文件**： 
+
+- realcugan-ncnn-vulkan-macos (macos)
+- realcugan-ncnn-vulkan.exe (windows)
+- realcugan-ncnn-vulkan (linux)
+
+**使用方法（linux为例）**
+
+```bash
+./realcugan-ncnn-vulkan -i "<input.png>" -o "<output-4x>.png"
 ```
 
 ## **cwebp 压缩使用**
